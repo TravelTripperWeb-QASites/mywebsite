@@ -1,5 +1,30 @@
 {
-  "name": {
+  "title": {
     "required": true
+  },
+  "sub-title": {
+    "required": true
+  },
+  "date": {
+    "required": true
+  },
+  "banner_image": {
+    "type": "image"
+  },
+  
+  "contents": {
+    "type": "richtext",
+    "required": true
+  },
+  "timings": {
+    "type": "richtext",
+    "required": true
+  },
+  "link": {
+    "type": "richtext"
+  },
+
+  "sort_order": {
+    "type": "integer"
   }
 }
